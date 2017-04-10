@@ -18,7 +18,7 @@ func GenSharedSecret(selfPri, otherPub [32]byte) [32]byte
 
 Generates a shared secret with the client's private key and a peers public key using the [Curve25519] Diffie-Hellman function.
 
-# func Hash
+## func Hash
 
 ```
 func Hash(tag string, data []byte) []byte
@@ -26,7 +26,7 @@ func Hash(tag string, data []byte) []byte
 
 Generates an authenticated 256 bit hash with the SHA-2 SHA-512/256 hash function in combination with HMAC.
 
-# func Encrypt
+## func Encrypt
 
 ```
 func Encrypt(plaintext []byte, secret [32]byte) ([]byte, error)
@@ -34,7 +34,7 @@ func Encrypt(plaintext []byte, secret [32]byte) ([]byte, error)
 
 Returns an encrypted version of the provided plaintext using AES.
 
-# func Decrypt
+## func Decrypt
 
 ```
 func Decrypt(ciphertext []byte, secret [32]byte) ([]byte, error)

@@ -47,6 +47,6 @@ Returns a decrypted version of the provided ciphertext using AES.
 - [Curve25519](http://cr.yp.to/ecdh.html)
 - [Diffie-Hellman Key Exchange - A Non-Mathematician’s Explanation](https://docs.google.com/viewer?a=v&pid=sites&srcid=bmV0aXAuY29tfGhvbWV8Z3g6NTA2NTM0YmNhZjRhZDYzZQ)
 - George Tankersley - Crypto for Go Developers
-..- [video](https://www.youtube.com/watch?v=2r_KMzXB74w)
-..- [slides](https://speakerdeck.com/gtank/crypto-for-go-developers)
-..- [code](https://github.com/gtank/cryptopasta)
+  - [video](https://www.youtube.com/watch?v=2r_KMzXB74w)
+  - [slides](https://speakerdeck.com/gtank/crypto-for-go-developers)
+  - [code](https://github.com/gtank/cryptopasta)
